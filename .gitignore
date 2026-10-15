@@ -1,0 +1,35 @@
+# ===== 大文件（演示视频放 GitHub Releases，不放代码仓库）=====
+*.mp4
+hardware.zip
+
+# ===== Keil MDK 构建输出 =====
+MDK-ARM/little_car/
+MDK-ARM/Listings/
+MDK-ARM/Objects/
+MDK-ARM/RTE/
+MDK-ARM/DebugConfig/
+*.uvguix.*
+*.uvoptx
+*.scvd
+*.lst
+
+# 编译中间产物
+*.o
+*.d
+*.crf
+*.lnp
+*.axf
+*.htm
+*.dep
+*.iex
+*.bak
+
+# ===== 日志/临时 =====
+*.log
+JLinkLog.txt
+
+# ===== 本地工具/系统 =====
+.workbuddy/
+.zcode/
+Thumbs.db
+Desktop.ini
